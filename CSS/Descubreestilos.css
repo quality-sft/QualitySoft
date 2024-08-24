@@ -1,0 +1,646 @@
+/* NOMBRE DE INTEGRANTES: -JUAN RICARDO RIAÑOS HORTA
+                          - EMMANUEL DUQUE ARISTIZABAL
+                          - SEBASTIÁN GARCIA CARDONA
+                          - SAMUEL FERNANDO PALACIOS SEVILLANO
+    FECHA:
+    22/06/2024
+    DESCRIPCIÓN:
+    CSS de la página de descripción de valores, misión y visión y slogan de la empresa para el usuario*/
+#barra:hover{
+    color: black;
+    transition: color 1s;
+    font-size: 23px;
+    transition: font-size 1s;
+    }
+#img{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    height: 180px; 
+    width: 200px;
+     position: absolute;
+      left: 100px;
+      top: -40px ;
+}
+
+#contenedor{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#siguiente{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#atras{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.Nosotros{
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    background-color: rgb(185, 185, 185);
+    font-family: "Josefin Sans", sans-serif;
+    left: 700px;
+    cursor: pointer;
+}
+.Equipo{
+    position: absolute;
+    top: 29px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    font-family: "Josefin Sans", sans-serif;
+    left: 930px;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+.Navega{
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    background-color: rgb(185, 185, 185);
+    font-family: "Josefin Sans", sans-serif;
+    left: 1050px;
+    cursor: pointer;
+}
+.siguiente{
+    background-color: rgba(85, 85, 85, 0.5); /* Color de fondo */
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin: none;
+    margin-top: none;
+    border-radius: 8px; 
+    width: 0%px;
+     position: absolute; top: 140px; z-index: 7; left: 1100px; top: 350px
+   }
+   .atras{
+       background-color: rgba(85, 85, 85, 0.5); /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    width: 1px;
+     position: absolute; top: 140px; z-index: 7; left: 638px; top: 350px
+   }
+   .atras:hover{
+       background-color: rgba(183, 174, 174, 0.5);
+   }
+   .siguiente:hover{
+       background-color: rgba(183, 174, 174, 0.5);
+   }
+   .Tabla{
+    background-color: rgb(255, 255, 255);  
+    position: relative; 
+    left: 1050px; 
+    top: 57px; 
+    width: 200px;
+    display: none;
+    z-index: 100;
+   }
+.Contactanos{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Contactanos:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+
+.Info{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Info:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+.MV{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+}
+.MV:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+.Product{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+}
+.Product:hover{
+    color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
+}
+
+
+
+
+.slogan{
+width: 1200px;
+position: relative;
+top: 100px;
+left: 40px;
+height: 460px;
+border-radius: 10px;
+margin-top: 0%;
+margin: 0%;
+cursor: pointer;
+
+}
+.slogan:hover{
+    box-shadow: 0 0 30px 10px rgba(8, 12, 77, 0.9);
+    transition: width 1s ease;
+}
+
+.titulo{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    font-size: 39px;
+        font-family: "Josefin Sans", sans-serif;
+
+}
+.acompañante{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+.parrafo{
+    font-size: 29px;
+        font-family: "Josefin Sans", sans-serif;
+        width: 400px;
+        position: relative;
+        top: -280px;
+        left: 80px;
+        text-align: center;
+}
+.titulo2{
+    position: absolute;
+    top: 1040px;
+    left: 700px;
+    font-size: 39px;
+        font-family: "Josefin Sans", sans-serif;
+
+}
+.acompañante2{
+    width: 490px;
+    height: 400px;
+    position: relative;
+    top: -190px;
+    left: 40px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.parrafo2{
+    font-size: 23px;
+        font-family: "Josefin Sans", sans-serif;
+        width: 400px;
+        position: relative;
+        top: -520px;
+        left: 630px;
+        z-index: 10;
+        text-align: center;
+}
+.transp{
+    position: absolute;
+    top: 1480px;
+    cursor: pointer;
+    left: 30px;
+    transition: filter 1s ease; 
+}
+.transp:hover{
+    filter: brightness(50%);
+}
+.parrafotransp{
+    position: absolute;
+    top: 1770px;
+    width: 400px;
+    left: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.sinceridad{
+    position: absolute;
+    top: 1480px;
+    cursor: pointer;
+    left: 465px;
+    transition: filter 1s ease; 
+}
+.sinceridad:hover{
+    filter: brightness(50%);
+}
+.parrafosinceridad{
+    position: absolute;
+    top: 1770px;
+    width: 390px;
+    left: 460px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.responsabilidad{
+    position: absolute;
+    top: 1460px;
+    cursor: pointer;
+    left: 930px;
+    transition: filter 1s ease; 
+}
+.parraforesponsabilidad{
+    position: absolute;
+    top: 1765px;
+    width: 350px;
+    left: 900px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.responsabilidad:hover{
+    filter: brightness(50%);
+}
+.deseo{
+    position: absolute;
+    top: 1930px;
+    cursor: pointer;
+    left: 35px;
+    transition: filter 1s ease; 
+}
+.deseo:hover{
+    filter: brightness(50%);
+}
+.parrafodeseo{
+    position: absolute;
+    top: 2230px;
+    width: 390px;
+    left: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.coherencia{
+    position: absolute;
+    top: 1930px;
+    cursor: pointer;
+    left: 475px;
+    transition: filter 1s ease; 
+}
+.coherencia:hover{
+    filter: brightness(50%);
+}
+.parrafocoherencia{
+    position: absolute;
+    top: 2230px;
+    width: 370px;
+    left: 467px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.actitudpositiva{
+    position: absolute;
+    top: 2000px;
+    cursor: pointer;
+    left: 940px;  
+    transition: filter 1s ease; 
+}
+.actitudpositiva:hover{
+    filter: brightness(50%);
+}
+.parrafoactitudpositiva{
+    position: absolute;
+    top: 2230px;
+    width: 350px;
+    left: 890px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif; 
+}
+.titulomv{
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    top: 2455px;
+    left: 38%;
+    font-size: 50px;
+    z-index: 2;
+}
+.mv{
+    background-color: #00C6A6;
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    top: 2480px;
+    left: 32%;
+    border-radius: 20px;
+    z-index: 1;
+}
+.raya{
+    position: absolute;
+    top: 2560px;
+    border: 0;
+    width: 620px;
+    border-top: 3px solid #000;
+
+}
+.circulo{
+    position: absolute;
+    top: 2550px;
+    left: 51%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent; 
+            border: 10px solid #000000; 
+            border-radius: 50%;
+}
+.raya2{
+    position: absolute;
+    top: 2560px;
+    border: 0;
+    left: 57%;
+    width: 543px;
+    border-top: 3px solid #000;
+}
+.Mision{
+    position: absolute;
+    top: 2580px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 350px;
+    font-size: 30px;
+    left: 120px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.Mision:hover{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
+    transform: scale(1.05); 
+}
+.Vision{
+    position: absolute;
+    top: 2580px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 350px;
+    font-size: 25px;
+    left: 800px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+        
+}
+.Vision:hover{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.5);
+    transform: scale(1.05);
+}
+.raya3{
+    position: absolute;
+    top: 2925px;
+    border: 0;
+    width: 620px;
+    border-top: 3px solid #000;
+
+}
+.circulo2{
+    position: absolute;
+    top: 2920px;
+    left: 51%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent; 
+            border: 10px solid #000000; 
+            border-radius: 50%;
+}
+.raya4{
+    position: absolute;
+    top: 2925px;
+    border: 0;
+    left: 57%;
+    width: 543px;
+    border-top: 3px solid #000;
+}
+.colores{
+    position: absolute;
+    top: 2980px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    left: 31%;
+    z-index: 2;
+}
+.azul{
+    width: 356px;
+    height: 300px;
+    position: absolute;
+    top: 2990px;
+ }
+ .negro{
+        width: 356px;
+        height: 300px;
+        position: absolute;
+        top: 3200px;
+        left: 215px;
+ }
+ .purpura{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 3050px;
+    z-index: 1;
+    left: 470px;
+}
+.info{
+    position: absolute;
+    top: 3100px;
+    left: 70%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    width: 260px;
+    text-align: center;
+}
+
+
+.RolesTabla{
+    text-decoration: none;
+    color: #cfc8c2;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer{
+position: absolute;
+top: 3600px;
+    height: 445px; 
+    margin: 0%; 
+    background-color: black; 
+    width: 100%;
+}
+.Nosotros2{
+    position: absolute;
+    top: 74px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    left: 215px;
+    cursor: pointer;
+}
+.tablafooter{
+    position: relative; 
+    left: 215px; 
+    top: 103px;
+    height: 80px;
+}
+.EquipoTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 690px;
+cursor: pointer;
+margin-bottom: 100px;
+text-decoration: none;
+}
+.ColorTabla{
+    color: #cfc8c2;
+    background-color: black;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    left: 690px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+.RolesTabla{
+    color: #cfc8c2;
+    background-color: black;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    left: 690px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    text-decoration: none; 
+}
+.tabla2footer{
+    position: relative; 
+    left: 500px; 
+    top: 21px;
+    height: 80px;
+}
+.SomosTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 690px;
+cursor: pointer;
+margin-bottom: 100px;
+text-decoration: none;
+}
+.ValorTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 190px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.MVTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 190px;
+cursor: pointer;
+margin-top: 100px;
+text-decoration: none;
+}
+.Info2{
+    position: absolute;
+    top: 64px;
+    left: 500px;
+    font-size: 16px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+
+    background-color: black;
+    cursor: pointer;
+}
+.Quality2{
+    position: absolute;
+    top: 64px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    left: 785px;
+    cursor: pointer;
+}
+.tablafooter2{
+    position: absolute;
+    left: 785px; 
+    top: 103px;
+    height: 70px;
+}
+.numerotabla{
+    font-size: 16px;
+    color: #cfc8c2;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.corretabla{
+    font-size: 16px;
+    color: #cfc8c2;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+.creditos{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 530px;
+    top:330px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

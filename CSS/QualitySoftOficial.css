@@ -1,0 +1,417 @@
+/* NOMBRE DE INTEGRANTES: -JUAN RICARDO RIAÑOS HORTA
+                          - EMMANUEL DUQUE ARISTIZABAL
+                          - SEBASTIÁN GARCIA CARDONA
+                          - SAMUEL FERNANDO PALACIOS SEVILLANO
+    FECHA:
+    22/06/2024
+    DESCRIPCIÓN:
+    CSS de la página de bienvenida al usuario*/
+#barra:hover{
+    color: black;
+    transition: color 1s;
+    font-size: 23px;
+    transition: font-size 1s;
+    }
+#img{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#contenedor{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#siguiente{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#atras{
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.Nosotros{
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    background-color: rgb(185, 185, 185);
+    font-family: "Josefin Sans", sans-serif;
+    left: 700px;
+    cursor: pointer;
+}
+.Equipo{
+    position: absolute;
+    top: 29px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    font-family: "Josefin Sans", sans-serif;
+    left: 930px;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+.Navega{
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    color: rgb(72, 71, 71);
+    background-color: rgb(185, 185, 185);
+    font-family: "Josefin Sans", sans-serif;
+    left: 1050px;
+    cursor: pointer;
+}
+.siguiente{
+    background-color: rgba(85, 85, 85, 0.5); /* Color de fondo */
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin: none;
+    margin-top: none;
+    border-radius: 8px; 
+    width: 0%px;
+     position: absolute; top: 140px; z-index: 7; left: 1100px; top: 350px
+   }
+   .atras{
+       background-color: rgba(85, 85, 85, 0.5); /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; 
+    padding: 15px 32px; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    width: 1px;
+     position: absolute; top: 140px; z-index: 7; left: 638px; top: 350px
+   }
+   .atras:hover{
+       background-color: rgba(183, 174, 174, 0.5);
+   }
+   .siguiente:hover{
+       background-color: rgba(183, 174, 174, 0.5);
+   }
+   .Tabla{
+    background-color: rgb(255, 255, 255);  
+    position: relative; 
+    left: 1050px; 
+    top: 57px; 
+    width: 200px;
+    display: none;
+    z-index: 100;
+   }
+.Contactanos{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Contactanos:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+
+.Info{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.Info:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+.MV{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+}
+.MV:hover{
+    color: black;
+transition: color 1s;
+font-size: 17px;
+transition: font-size 1s;
+}
+.Product{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+}
+.Product:hover{
+    color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
+}
+
+
+#imgbienvenida{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+
+
+.Nuestrosproductos{
+    position: absolute;
+    top: 660px;
+    font-family: "Josefin Sans", sans-serif;
+    left: 100px;
+}
+.priproducto{
+    position: absolute;
+    top: 760px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease; 
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); 
+}
+.priproducto:hover{
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.9);
+    transition: width 1s ease;
+    width: 315px;
+    transition: height 1s ease;
+    height: 315px;
+}
+.text1{
+    background-color: white;
+    text-align: center;
+    font-family: Josefin Sans, sans-serif ; 
+     color: black;
+     z-index: 10; 
+     position: absolute;
+     top: 757px;
+     left:125px;
+     width: 250px;
+     display: none;
+     box-shadow: 0 0 30px 10px rgba(10, 141, 32, 0.9);
+}
+
+
+.secproducto{
+    position: absolute;
+    top: 760px;
+    left: 450px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease; 
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); 
+}
+.secproducto:hover{
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.9);
+    transition: width 1s ease;
+    width: 315px;
+    transition: height 1s ease;
+    height: 315px;
+}
+.text2{
+    background-color: white;
+    text-align: center;
+    font-family: Josefin Sans, sans-serif ; 
+     color: black;
+     z-index: 10; 
+     position: absolute;
+     top: 755px;
+     left:480px;
+     width: 250px;
+     display: none;
+     box-shadow: 0 0 30px 10px rgba(9, 165, 200, 0.9);
+}
+.terproducto{
+    position: absolute;
+    top: 760px;
+    left: 800px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease; /* Transición suave del box-shadow */
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); 
+}
+.terproducto:hover{
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.9);
+    transition: width 1s ease;
+    width: 315px;
+    transition: height 1s ease;
+    height: 315px;
+}
+.text3{
+    background-color: white;
+    text-align: center;
+    font-family: Josefin Sans, sans-serif ; 
+     color: black;
+     z-index: 10; 
+     position: absolute;
+     top: 755px;
+     left:830px;
+     width: 240px;
+     display: none;
+     box-shadow: 0 0 30px 10px rgba(9, 12, 200, 0.9);
+}
+
+
+
+
+
+
+
+
+.RolesTabla{
+    text-decoration: none;
+    color: #cfc8c2;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer{
+position: absolute;
+top: 1200px;
+    height: 445px; 
+    margin: 0%; 
+    background-color: black; 
+    width: 100%;
+}
+.Nosotros2{
+    position: absolute;
+    top: 74px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    left: 215px;
+    cursor: pointer;
+}
+.tablafooter{
+    position: relative; 
+    left: 215px; 
+    top: 103px;
+    height: 80px;
+}
+.SomosTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 690px;
+cursor: pointer;
+margin-bottom: 100px;
+text-decoration: none;
+}
+.ValorTabla{
+    color: #cfc8c2;
+background-color: black;
+font-size: 16px;
+font-family: "Josefin Sans", sans-serif;
+left: 190px;
+cursor: pointer;
+margin-top: 100px;
+text-decoration: none;
+}
+.tabla2footer{
+    position: relative; 
+    left: 500px; 
+    top: 21px;
+    height: 80px;
+}
+.MVTabla{
+    color: #cfc8c2;
+    background-color: black;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    left: 190px;
+    cursor: pointer;
+    margin-top: 100px;
+    text-decoration: none; 
+}
+.Info2{
+    position: absolute;
+    top: 64px;
+    left: 500px;
+    font-size: 16px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+
+    background-color: black;
+    cursor: pointer;
+}
+.Quality2{
+    position: absolute;
+    top: 64px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    left: 785px;
+    cursor: pointer;
+}
+.tablafooter2{
+    position: absolute;
+    left: 785px; 
+    top: 103px;
+    height: 70px;
+}
+.numerotabla{
+    font-size: 16px;
+    color: #cfc8c2;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.corretabla{
+    font-size: 16px;
+    color: #cfc8c2;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer; 
+    text-decoration: none;
+}
+.ColorTabla{
+    color: #cfc8c2;
+    background-color: black;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    left: 690px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+.creditos{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 530px;
+    top:330px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+<!--NOMBRE DE INTEGRANTES: -JUAN RICARDO RIAÑOS HORTA
+                          - EMMANUEL DUQUE ARISTIZABAL
+                          - SEBASTIÁN GARCIA CARDONA
+                          - SAMUEL FERNANDO PALACIOS SEVILLANO
+    FECHA:
+    22/06/2024
+    DESCRIPCIÓN:
+    Página de bienvenida al usuario-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Soft</title>
+    <link rel="website icon" type="png" href="/IMAGENES/OFICIALIMAGENES/LOGOPEQUENO.png">
+    <link rel="stylesheet" href="CSS/QualitySoftOficial.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body style="margin: 0%;margin-top: 0%; height: 1600px;">
+ <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO.png" onclick="Hola()" id="hola" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1000; width: 50px;height: 50px;display: block; ">
+ <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO2.png" onclick="Hola()" id="hola2" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1001; width: 50px;height: 50px; display: none;">
+ <header style="margin: 0%; margin-top: 0%;margin-bottom: 0%;">
+  <div style="margin: 0%; width: 100%; height: 80px;background-color: rgb(185, 185, 185); position: absolute; z-index: 13" >
+    <a href="QualitySoftOficial.html"><img id="img" src="IMAGENES/OFICIALIMAGENES/LogoHorizontalfondoblanco.png" style="height: 180px; width: 200px; position: absolute; left: 100px;top: -40px ;"></a>
+  
+  <a class="Nosotros" id="barra" style="text-decoration: none;" href="HTML/Descubre.html"> <b>Descubre Quality</b></a>
+  <a class="Equipo" id="barra"  style="text-decoration: none;" href="HTML/Equipo.html"><b>Equipo</b></a>
+  <h1 class="Navega"  id="barra" style="cursor: pointer;" onclick="Tabla()">¿Necesitas ayuda?</h1>
+
+  <table id="Tabla" class="Tabla">
+    <tr><td><a class="Contactanos" id="Contactanos" href="HTML/Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
+    <tr><td> <a class="Info" id="Info" href="HTML/Descubre.html#Valores" > Valores de la empresa</a></td></tr>
+    <tr><td> <a class="Info" id="Product" href="HTML/Error404.html" > Nuestro producto estrella</a></td></tr>
+    <tr><td> <a class="Info" href="HTML/Descubre.html#MV" > Mision y Visión</a></td></tr>
+    <tr><td> <a class="Info" href="HTML/Agendar.html" > Agendar una app</a></td></tr>
+  </table>
+  
+  </div>
+ </header>
+ 
+
+
+
+
+
+
+<main>
+  <div id="imagenes">
+    <img src="IMAGENES/OFICIALIMAGENES/bienvenidos.png" id="imgbienvenida"  >
+    </div>
+ <div id="contenedor" class="contenedor" >
+ <a href=""><img style="width: 500px; height: 500px; position: absolute; top: 140px; left: 650px; display: block;" src="IMAGENES/OFICIALIMAGENES/Pub.png" id="1"></a>
+ <a href=""><img style="width: 500px; height: 500px; position: absolute; top: 140px; left: 650px; display: none; " src="IMAGENES/OFICIALIMAGENES/Pub2.png" id="2"></a>
+ <a href=""><img style="width: 500px; height: 500px; position: absolute; top: 140px; left: 650px; display: none;" src="IMAGENES/OFICIALIMAGENES/Pub3.png" id="3"></a>
+ <a href=""><img style="width: 500px; height: 500px; position: absolute; top: 140px; left: 650px; display: none;" src="IMAGENES/OFICIALIMAGENES/Pub4.png" id="4"></a>
+ <a href=""><img style="width: 500px; height: 500px; position: absolute; top: 140px; left: 650px; display: none;" src="IMAGENES/OFICIALIMAGENES/Pub5.png" id="5"></a>
+ </div>
+ <button onclick="siguiente()" id="siguiente" class="siguiente" >></button>
+ <button onclick="atras()" id="atras" class="atras" >&#60; </button>
+
+
+
+
+
+ <div>
+  <H1 class="Nuestrosproductos">Nuestros productos</H1>
+<img src="IMAGENES/OFICIALIMAGENES/1producto.png" id="priproducto" onclick="priproducto()" class="priproducto">
+<p class="text1" id="text1">Pet-GPS es una innovadora aplicación diseñada para ayudar en la localización de perros abandonados o perdidos, brindando una solución integral para su rescate y bienestar. Con Pet-GPS, los usuarios pueden reportar avistamientos de perros sin hogar o extraviados.</p>
+<img src="IMAGENES/OFICIALIMAGENES/2producto.png" id="secproducto" onclick="secproducto()" class="secproducto">
+<p class="text2" id="text2">Data-Bird es una innovadora aplicación móvil diseñada para los entusiastas de la observación de aves y la conservación de la biodiversidad en la ciudad de Cali. Esta herramienta permite a los usuarios registrar avistamientos de aves no documentadas previamente.</p>
+<img src="IMAGENES/OFICIALIMAGENES/3producto.jpeg" id="terproducto" onclick="terproducto()" class="terproducto">
+<p class="text3" id="text3">"Heart Sport" es la aplicación ideal tanto para deportistas como para aquellos que buscan superarse físicamente y mejorar su salud. Esta innovadora herramienta te permite generar rutas seguras para hacer deporte en tu entorno, asegurándote de que cada entrenamiento se realice en las mejores condiciones.</p>
+ </div>
+ 
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer" >  
+  <a class="Nosotros2" id="barra2" style="text-decoration: none;" href="HTML/Descubre.html"> <b>Descubre Quality</b></a>
+  <table class="tablafooter">
+    <tr><td><a class="SomosTabla" href="HTML/Equipo.html">Nuestro Equipo</a></td></tr>
+    <tr><td> <a class="RolesTabla" href="HTML/Equipo.html#Rolesss" >Roles del Equipo</a> </td></tr>
+  </table>
+  <h1 class="Info2" id="barra2">Información de la empresa</h1>
+  <table class="tabla2footer">
+    <tr><td><a class="SomosTabla" href="HTML/Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
+    <tr><td> <a class="ValorTabla" href="HTML/Descubre.html#Valores" >Valores de la empresa</a> </td></tr>
+    <tr><td> <a class="MVTabla" href="HTML/Descubre.html#MV" >Misión y Visión de la empresa</a> </td></tr>
+    <tr><td> <a class="ColorTabla" href="HTML/Descubre.html#Color" >Colores representativos</a> </td></tr>
+  </table>
+  <h1 class="Quality2" id="barra2">Quality Soft Colombia</h1>
+
+<h1 onclick="creditos()" class="creditos" id="creditos">© 2024 Quality Soft</h1>
+<table class="tablafooter2">
+  <tr><td><a class="numerotabla" href="HTML/Agendar.html">Agendar una App</a></td></tr>
+  <tr><td><a class="numerotabla" href="https://wa.me/573185290198">318 5290198</a></td></tr>
+  <tr><td> <a class="corretabla" href="mailto:quality@outlook.com">quality@outlook.com</a></td></tr>
+</table>
+</footer>
+
+
+
+<script src="JS/Funciones.js"></script>
+</div>
+</body>
+</html>
