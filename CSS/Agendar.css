@@ -172,7 +172,16 @@ transition: font-size 1s;
     top: 200px;
     left: 150px;
 }
-
+select{
+    width: 163px; height: 21px; font-family: Josefin Sans, sans-serif; font-size: 14px;
+}
+.advertencia{
+    position: absolute;
+    font-family: "Josefin Sans", sans-serif;  
+   top: 375px;
+    left: 345px;
+    display:none;
+}
 
 
 

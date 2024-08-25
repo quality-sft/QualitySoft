@@ -79,18 +79,83 @@ function Confirmar(){
     input3.readOnly = true; 
     input4.readOnly = true; 
     input5.readOnly = true; 
+    var selectinput= document.getElementById("rol").value;
+
+    if (selectinput==="Seleccione"){
+        alert("¡Escoja una opción valida!")
+        document.getElementById("advertencia").style.display="block"
+        
+    } else if (!(selectinput==="Seleccione")){
+        document.getElementById("advertencia").style.display="none"
+        document.getElementById("boton").style.display="none"
+        document.getElementById("Hijo").style.display="block"
+        document.getElementById("PapaInicial").style.display="none"
+        document.getElementById("advertencia").style.top="373px"
+        document.getElementById("advertencia").style.left="335px"
+    } else { 
+        document.getElementById("boton").style.display="none"
+        document.getElementById("Hijo").style.display="block"
+        document.getElementById("PapaInicial").style.display="none"
+        document.getElementById("advertencia").style.top="373px"
+        document.getElementById("advertencia").style.left="335px"
+    }
 
     
-    document.getElementById("boton").style.display="none"
-    document.getElementById("Hijo").style.display="block"
-    document.getElementById("PapaInicial").style.display="none"
+   
 
 }
 
+function Limit(){
+
+    var selectinput1= document.getElementById("publico").value;
+    var selectinput2= document.getElementById("anuncios").value;
+    var selectinput3= document.getElementById("funcion").value;
+   
+//Verifica que el select del publico no este con una opción incorrecta
+if (selectinput1==="Seleccione"){
+    alert("¡Escoja una opción valida!")
+    document.getElementById("advertencia").style.display="block"
+} else if (!(selectinput1==="Seleccione")){
+    document.getElementById("advertencia").style.display="none"
+    document.getElementById("boton").style.display="none"
+    document.getElementById("Hijo").style.display="block"
+    document.getElementById("PapaInicial").style.display="none"
+    document.getElementById("advertencia").style.top="436px"
+    document.getElementById("advertencia").style.left="335px"
+} 
+//Verifica que el select del anuncio no tenga una opción incorrectaa 
+if (selectinput2==="Seleccione"){
+    alert("¡Escoja una opción valida!")
+    document.getElementById("advertencia").style.display="block"
+} else if (!(selectinput2==="Seleccione")){
+    document.getElementById("advertencia").style.display="none"
+    document.getElementById("boton").style.display="none"
+    document.getElementById("Hijo").style.display="block"
+    document.getElementById("PapaInicial").style.display="none"
+    document.getElementById("advertencia").style.top="498px"
+    document.getElementById("advertencia").style.left="335px"
+} 
+//Verifica que el select de funciones gratutitas no tenga una opción incorrecta
+if (selectinput3==="Seleccione"){
+    alert("¡Escoja una opción valida!")
+    document.getElementById("advertencia").style.display="block"
+} else if (!(selectinput3==="Seleccione")){
+    document.getElementById("advertencia").style.display="none"
+    document.getElementById("boton").style.display="none"
+    document.getElementById("Hijo").style.display="block"
+    document.getElementById("PapaInicial").style.display="none"
+    
+} 
+
+    
+ if ((!(selectinput1==="Seleccione"))&(!(selectinput2==="Seleccione"))&(!(selectinput3==="Seleccione"))){
+    Finalizar();
+ }
+    //NOTA: No se programa que, en caso de que en los tres inputs (asi sea repetido) no este seleccionada la opción correcta aparezca tres veces la advertencia al mismo tiempo, no se programa por falta de tiempo:
+}
 function Finalizar(){
     document.getElementById("FinalizarBoton").style.display="none"
     document.getElementById("Nieto").style.display="block"
     document.getElementById("Hijo").style.display="none"
     document.getElementById("bienvenida").innerHTML = "Señor usuario<br>Entre a este link para agendar la reunión con nuestro programador especializado para su app";
-
 }
