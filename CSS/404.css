@@ -1,3 +1,12 @@
+/* NOMBRE DE INTEGRANTES: -JUAN RICARDO RIAÑOS HORTA
+                          - EMMANUEL DUQUE ARISTIZABAL
+                          - SEBASTIÁN GARCIA CARDONA
+                          - SAMUEL FERNANDO PALACIOS SEVILLANO
+                          - JUAN ALEJANDRO GOMEZ OROZCO
+    FECHA:
+    22/06/2024
+    DESCRIPCIÓN:
+    CSS de la página de error de conexión con el usuario*/
 body::-webkit-scrollbar {
     display: none; /* Oculta la barra de desplazamiento */
 }
