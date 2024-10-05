@@ -16,7 +16,7 @@
         cursor: pointer;
         opacity: 0;
         transition: opacity 1s ease-in-out;
-        height: 76px; 
+        height: 100px; 
         width: 200px;
          position: absolute;
           left: 100px;
