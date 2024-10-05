@@ -6,164 +6,166 @@
     22/06/2024
     DESCRIPCIÓN:
     Página de interacción con el usuario-->
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda Quality Soft</title>
-    <link rel="stylesheet" href="CSS/Agendar.css">
-    <link rel="website icon" type="png" href="IMAGENES/Agendar/LOGOPEQUENO.png">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap" rel="stylesheet">
-
-</head>
-
-
-<body style="margin: 0%;margin-top: 0%; height: 1144px; margin: 0px;border: 0px; border-top: none;">
- <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO.png" onclick="Hola()" id="hola" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1000; width: 50px;height: 50px;display: block; ">
- <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO2.png" onclick="Hola()" id="hola2" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1001; width: 50px;height: 50px; display: none;">
- <header style="margin: 0%; margin-top: 0%;margin-bottom: 0%; border-top: none;">
-  <div style="margin: 0%; width: 100%; height: 80px;background-color: rgb(185, 185, 185); position: absolute; z-index: 13" >
-    <a href="QualitySoftOficial.html"><img id="img" src="IMAGENES/OFICIALIMAGENES/LogoHorizontalfondoblanco.png" style="height: 180px; width: 200px; position: absolute; left: 100px;top: -40px ;"></a>
-  
-  <a class="Nosotros" id="barra" style="text-decoration: none;" href="Descubre.html"> <b>Descubre Quality</b></a>
-  <a class="Equipo" id="barra"  style="text-decoration: none;" href="Equipo.html"><b>Equipo</b></a>
-  <h1 class="Navega"  id="barra" style="cursor: pointer;" onclick="Tabla()">¿Necesitas ayuda?</h1>
-
-  <table id="Tabla" class="Tabla">
-    <tr><td><a class="Contactanos" id="Contactanos" href="Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
-    <tr><td> <a class="Info" id="Info" href="Descubre.html#Valores" > Valores de la empresa</a></td></tr>
-    <tr><td> <a class="Info" id="Product" href="Error404.html" > Nuestro producto estrella</a></td></tr>
-    <tr><td> <a class="Info" href="Descubre.html#MV" > Mision y Visión</a></td></tr>
-    <tr><td> <a class="Info" href="Agendar.html" > Agendar una app</a></td></tr>
-  </table>   
-
-</div>
-</header>
-
-<main>
-
-  <h3 id="advertencia" class="advertencia">Escoja la opción aquí</h3>
-    <p id="bienvenida" class="bienvenida">Usuario,  nos complace tenerlo aquí. <br>Por favor, rellena los siguientes espacios para la debida agenda de tu app</p>
-    <img src="IMAGENES/Agendar/LOGOPEQUENO.png" class="hola">
-
-    <div class="PapaInicial" id="PapaInicial">
-        <form class="inicial">
-            <label for="">Nombre de la empresa que representa:</label><br><input id="nombre" type="text"><br><br>
-            <label for="">Correo de contacto de la empresa:</label><br><input id="correo" type="text"><br><br>
-            <label for="">Nombre de la persona que registra:</label><br><input id="persona" type="text"><br><br>
-            <label for="">Rol de la persona que registra:</label><br>
-              <select id="rol" name="rol" >
-                <option value="Seleccione">Seleccione una opción</option>
-                <option value="gerente">Gerente</option>
-                <option value="desarrollador">Desarrollador</option>
-                <option value="diseñador">Diseñador</option>
-                <option value="analista">Analista</option>
-                <option value="administrativo">Administrativo</option>
-                <option value="soporte">Soporte Técnico</option>
-                <option value="marketing">Marketing</option>
-                <option value="ventas">Ventas</option>
-                <option value="recursos_humanos">Recursos Humanos</option>
-                <option value="otro">Otro</option>
-              </select><br><br>
-            <label for="">Número de identificación de la persona que registra:</label><br><input id="numero" type="text"><br><br>
-            
-        </form>
-        <br><br>
-        <button style="position:absolute; top: 490px; left: 160px;" id="boton" onclick="Confirmar()">Terminar</button>
-       
-      </div>
-  
-    </div>
-
-
-
-<div class="Hijo" id="Hijo" style="display: none;">
-  <p>Ahora si, pasemos con el debido cuestionario:</p>
-  <form class="subir">
-      <label for="archivo">Selecciona una imagen:</label>
-      <input type="file" id="archivo" name="archivo" accept="image/*">
-      <br><br>
-      <img id="preview" src="" class="logousuario" alt="Vista previa de la imagen">
-  </form>
-<form action="">
-  <label for="">Nombre de la aplicación: </label><br><input type="text"><br><br>
-  <label for="">¿Para qué público está destinado?</label><br>
-  <select id="publico" name="publico">
-    <option value="Seleccione">Seleccione una opción</option>
-    <option value="general">Público General</option>
-    <option value="empresas">Empresas</option>
-    <option value="profesionales">Profesionales</option>
-    <option value="educacion">Instituciones Educativas</option>
-    <option value="gobierno">Gobierno</option>
-    <option value="organizaciones">Organizaciones sin Fines de Lucro</option>
-    <option value="adultos">Adultos</option>
-    <option value="adolescentes">Adolescentes</option>
-    <option value="ninos">Niños</option>
-    <option value="internacional">Audiencia Internacional</option>
-</select> <br><br>
-  <label for="">¿Permitirá anuncios dentro de la app?</label><br>
-  <select id="anuncios" name="anuncios">
-    <option value="Seleccione">Seleccione una opción</option>
-    <option value="Si">Si</option>
-    <option value="No">No</option>
-    <option value="Future">A futuro</option>
-</select><br><br>
-  <label for="">¿Todas sus funciones serán gratuitas?</label><br>
-  <select id="funcion" name="funcion">
-    <option value="Seleccione">Seleccione una opción</option>
-    <option value="Yes">Si</option>
-    <option value="No">No</option>
-
-</select>
-
-</form>
-<br><br>
-<button onclick="Limit()" id="FinalizarBoton">Finalizar</button>
-</div>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agendar en System Boss</title>
+        <link rel="stylesheet" href="CSS/Agendar.css">
+        <link rel="website icon" type="png" href="IMAGENES/AGENDARIMAGENES/LOGOPEQUENO.png">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tilt+Neon&display=swap" rel="stylesheet">
     
-
-
-<div class="Nieto" id="Nieto" style="display: none;">
-  <a href="mailto:quality@outlook.com?subject=Comun%C3%ADcame%20con%20Quality%20Soft&body=%5BPUEDEN%20MODIFICAR%20EL%20MENSAJE%5D%0AEspero%20que%20este%20mensaje%20le%20encuentre%20bien.%0AMe%20dirijo%20a%20ustedes%20en%20nombre%20de%20%5BTu%20Nombre%20o%20el%20Nombre%20de%20tu%20Empresa%5D%20para%20explorar%20la%20posibilidad%20de%20colaborar%20con%20Quality%20Soft%20en%20la%20creaci%C3%B3n%20de%20una%20aplicaci%C3%B3n%20web.%20%0A%0ADetalles%20del%20Proyecto%3A%0ANombre%20del%20Proyecto%3A%20%5BNombre%20del%20Proyecto%5D%0ADescripci%C3%B3n%20General%3A%20%5BBreve%20descripci%C3%B3n%20del%20proyecto%20y%20sus%20objetivos%5D%0AFuncionalidades%20Principales%3A%20%5BLista%20resumida%20de%20las%20funcionalidades%20clave%20que%20se%20esperan%20de%20la%20app%20web%5D%0APlazo%20Tentativo%3A%20%5BPlazo%20en%20el%20que%20se%20espera%20desarrollar%20y%20lanzar%20la%20app%5D%0A%0AAgradecemos%20de%20antemano%20su%20atenci%C3%B3n%20y%20estamos%20emocionados%20por%20la%20posibilidad%20de%20trabajar%20juntos%20en%20este%20proyecto.%20Quedamos%20a%20la%20espera%20de%20su%20respuesta.%0A%0ASaludos%20cordiales%2C%0A%0A%5BTu%20Nombre%5D%0A%5BTu%20Puesto%5D%0A%5BTu%20Empresa%5D%0A%5BTu%20Tel%C3%A9fono%5D%0A%5BTu%20Correo%20Electr%C3%B3nico%5D">¡Enviar Correo!</a>
-</div>
-
-  
-</main>
-
-
-
-
-
-
-  <footer class="footer" >  
-    <a class="Nosotros2" id="barra2" style="text-decoration: none;" href="Descubre.html"> <b>Descubre Quality</b></a>
-    <table class="tablafooter">
-
-
-      <tr><td><a class="SomosTabla" href="Equipo.html">Nuestro Equipo</a></td></tr>
-      <tr><td> <a class="RolesTabla" href="Equipo.html#Roles" >Roles del Equipo</a> </td></tr>
-    </table>
-    <h1 class="Info2" id="barra2">Información de la empresa</h1>
-
-
-    <table class="tabla2footer">
-      <tr><td><a class="SomosTabla" href="Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
-      <tr><td> <a class="ValorTabla" href="Descubre.html#Valores" >Valores de la empresa</a> </td></tr>
-      <tr><td> <a class="MVTabla" href="Descubre.html#MV" >Misión y Visión de la empresa</a> </td></tr>
-      <tr><td> <a class="ColorTabla" href="Descubre.html#Color" >Colores representativos</a> </td></tr>
-    </table>
-    <h1 class="Quality2" id="barra2">Quality Soft Colombia</h1>
-  
-
-  <h1 onclick="creditos()" class="creditos" id="creditos">© 2024 Quality Soft</h1>
-  <table class="tablafooter2">
-    <tr><td><a class="numerotabla" href="Agendar.html">Agendar una App</a></td></tr>
-    <tr><td><a class="numerotabla" href="https://wa.me/573185290198">318 5290198</a></td></tr>
-    <tr><td> <a class="corretabla" href="mailto:quality@outlook.com">quality@outlook.com</a></td></tr>
-  </table>
-  </footer>
-  
-    <script src="JS/Agendar.js"></script>
-</body>
-</html>
+    </head>
+    
+    
+    <body style="margin: 0%;margin-top: 0%; height: 1144px; margin: 0px;border: 0px; border-top: none;">
+      <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO.png" onclick="Hola()" id="hola">
+ <img src="IMAGENES/OFICIALIMAGENES/LOGOPEQUENO2.png" onclick="Hola()" id="hola2">
+     <img src="IMAGENES/AGENDARIMAGENES/LOGOPEQUENO.png" onclick="Hola()" id="hola" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1000; width: 50px;height: 50px;display: block; ">
+     <img src="IMAGENES/AGENDARIMAGENES/LOGOPEQUENO.png" onclick="Hola()" id="hola2" style="cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1001; width: 50px;height: 50px; display: none;">
+     <header style="margin: 0%; margin-top: 0%;margin-bottom: 0%; border-top: none;">
+      <div style="margin: 0%; width: 100%; height: 80px;background-color: rgb(185, 185, 185); position: absolute; z-index: 13" >
+        <a href="SystemBossOficial.html"><img id="img" src="IMAGENES/AGENDARIMAGENES/LogoHorizontalfondoblanco.png" ></a>
+      
+      <a class="Nosotros" id="barra" style="text-decoration: none;" href="Descubre.html"> <b>Descubre Quality</b></a>
+      <a class="Equipo" id="barra"  style="text-decoration: none;" href="Equipo.html"><b>Equipo</b></a>
+      <h1 class="Navega"  id="barra" style="cursor: pointer;" onclick="Tabla()">¿Necesitas ayuda?</h1>
+    
+      <table id="Tabla" class="Tabla">
+        <tr><td><a class="Contactanos" id="Contactanos" href="Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
+        <tr><td> <a class="Info" id="Info" href="Descubre.html#Valores" > Valores de la empresa</a></td></tr>
+        <tr><td> <a class="Info" id="Product" href="Error404.html" > Nuestro producto estrella</a></td></tr>
+        <tr><td> <a class="Info" href="Descubre.html#MV" > Mision y Visión</a></td></tr>
+        <tr><td> <a class="Info" href="Agendar.html" > Agendar una app</a></td></tr>
+      </table>   
+    
+    </div>
+    </header>
+    
+    <main>
+    
+      <h3 id="advertencia" class="advertencia">Escoja la opción aquí</h3>
+        <p id="bienvenida" class="bienvenida">Usuario,  nos complace tenerlo aquí. <br>Por favor, rellena los siguientes espacios para la debida agenda de tu app</p>
+        <img src="IMAGENES/AGENDARIMAGENES/LOGOPEQUENO.png" class="hola">
+    
+        <div class="PapaInicial" id="PapaInicial">
+            <form class="inicial">
+                <label for="">Nombre de la empresa que representa:</label><br><input id="nombre" type="text"><br><br>
+                <label for="">Correo de contacto de la empresa:</label><br><input id="correo" type="text"><br><br>
+                <label for="">Nombre de la persona que registra:</label><br><input id="persona" type="text"><br><br>
+                <label for="">Rol de la persona que registra:</label><br>
+                  <select id="rol" name="rol" >
+                    <option value="Seleccione">Seleccione una opción</option>
+                    <option value="gerente">Gerente</option>
+                    <option value="desarrollador">Desarrollador</option>
+                    <option value="diseñador">Diseñador</option>
+                    <option value="analista">Analista</option>
+                    <option value="administrativo">Administrativo</option>
+                    <option value="soporte">Soporte Técnico</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="ventas">Ventas</option>
+                    <option value="recursos_humanos">Recursos Humanos</option>
+                    <option value="otro">Otro</option>
+                  </select><br><br>
+                <label for="">Número de identificación de la persona que registra:</label><br><input id="numero" type="text"><br><br>
+                
+            </form>
+            <br><br>
+            <button style="position:absolute; top: 490px; left: 160px;" id="boton" onclick="Confirmar()">Terminar</button>
+           
+          </div>
+      
+        </div>
+    
+    
+    
+    <div class="Hijo" id="Hijo" style="display: none;">
+      <p>Ahora si, pasemos con el debido cuestionario:</p>
+      <form class="subir">
+          <label class="nose" for="archivo">Selecciona una imagen:</label>
+          <input type="file" id="archivo" name="archivo" accept="image/*">
+          <br><br>
+          <img id="preview" src="" class="logousuario" alt="Vista previa de la imagen">
+      </form>
+    <form action="">
+      <label for="">Nombre de la aplicación: </label><br><input type="text"><br><br>
+      <label for="">¿Para qué público está destinado?</label><br>
+      <select id="publico" name="publico">
+        <option value="Seleccione">Seleccione una opción</option>
+        <option value="general">Público General</option>
+        <option value="empresas">Empresas</option>
+        <option value="profesionales">Profesionales</option>
+        <option value="educacion">Instituciones Educativas</option>
+        <option value="gobierno">Gobierno</option>
+        <option value="organizaciones">Organizaciones sin Fines de Lucro</option>
+        <option value="adultos">Adultos</option>
+        <option value="adolescentes">Adolescentes</option>
+        <option value="ninos">Niños</option>
+        <option value="internacional">Audiencia Internacional</option>
+    </select> <br><br>
+      <label for="">¿Permitirá anuncios dentro de la app?</label><br>
+      <select id="anuncios" name="anuncios">
+        <option value="Seleccione">Seleccione una opción</option>
+        <option value="Si">Si</option>
+        <option value="No">No</option>
+        <option value="Future">A futuro</option>
+    </select><br><br>
+      <label for="">¿Todas sus funciones serán gratuitas?</label><br>
+      <select id="funcion" name="funcion">
+        <option value="Seleccione">Seleccione una opción</option>
+        <option value="Yes">Si</option>
+        <option value="No">No</option>
+    
+    </select>
+    
+    </form>
+    <br><br>
+    <button onclick="Limit()" id="FinalizarBoton">Finalizar</button>
+    </div>
+        
+    
+    
+    <div class="Nieto" id="Nieto" style="display: none;">
+      <a class="enviarcorreo" href="mailto:quality@outlook.com?subject=Comun%C3%ADcame%20con%20Quality%20Soft&body=%5BPUEDEN%20MODIFICAR%20EL%20MENSAJE%5D%0AEspero%20que%20este%20mensaje%20le%20encuentre%20bien.%0AMe%20dirijo%20a%20ustedes%20en%20nombre%20de%20%5BTu%20Nombre%20o%20el%20Nombre%20de%20tu%20Empresa%5D%20para%20explorar%20la%20posibilidad%20de%20colaborar%20con%20Quality%20Soft%20en%20la%20creaci%C3%B3n%20de%20una%20aplicaci%C3%B3n%20web.%20%0A%0ADetalles%20del%20Proyecto%3A%0ANombre%20del%20Proyecto%3A%20%5BNombre%20del%20Proyecto%5D%0ADescripci%C3%B3n%20General%3A%20%5BBreve%20descripci%C3%B3n%20del%20proyecto%20y%20sus%20objetivos%5D%0AFuncionalidades%20Principales%3A%20%5BLista%20resumida%20de%20las%20funcionalidades%20clave%20que%20se%20esperan%20de%20la%20app%20web%5D%0APlazo%20Tentativo%3A%20%5BPlazo%20en%20el%20que%20se%20espera%20desarrollar%20y%20lanzar%20la%20app%5D%0A%0AAgradecemos%20de%20antemano%20su%20atenci%C3%B3n%20y%20estamos%20emocionados%20por%20la%20posibilidad%20de%20trabajar%20juntos%20en%20este%20proyecto.%20Quedamos%20a%20la%20espera%20de%20su%20respuesta.%0A%0ASaludos%20cordiales%2C%0A%0A%5BTu%20Nombre%5D%0A%5BTu%20Puesto%5D%0A%5BTu%20Empresa%5D%0A%5BTu%20Tel%C3%A9fono%5D%0A%5BTu%20Correo%20Electr%C3%B3nico%5D">Por favor, hunde este link: <br>¡Enviar Correo!</a>
+    </div>
+    
+      
+    </main>
+    
+    
+    
+    
+    
+    
+      <footer class="footer" >  
+        <a class="Nosotros2" id="barra2" style="text-decoration: none;" href="Descubre.html"> <b>Descubre System Boss</b></a>
+        <table class="tablafooter">
+    
+    
+          <tr><td><a class="SomosTabla" href="Equipo.html">Nuestro Equipo</a></td></tr>
+          <tr><td> <a class="RolesTabla" href="Equipo.html#Roles" >Roles del Equipo</a> </td></tr>
+        </table>
+        <h1 class="Info2" id="barra2">Información de la empresa</h1>
+    
+    
+        <table class="tabla2footer">
+          <tr><td><a class="SomosTabla" href="Descubre.html#Quienes">¿Quienes somos?</a></td></tr>
+          <tr><td> <a class="ValorTabla" href="Descubre.html#Valores" >Valores de la empresa</a> </td></tr>
+          <tr><td> <a class="MVTabla" href="Descubre.html#MV" >Misión y Visión de la empresa</a> </td></tr>
+          <tr><td> <a class="ColorTabla" href="Descubre.html#Color" >Colores representativos</a> </td></tr>
+        </table>
+        <h1 class="Quality2" id="barra2">System Boss Colombia</h1>
+      
+    
+      <h1 onclick="creditos()" class="creditos" id="creditos">© 2024 System Boss</h1>
+      <table class="tablafooter2">
+        <tr><td><a class="numerotabla" href="Agendar.html">Agendar una App</a></td></tr>
+        <tr><td><a class="numerotabla" href="https://wa.me/573185290198">318 5290198</a></td></tr>
+        <tr><td> <a class="corretabla" href="mailto:quality@outlook.com">systemboss@outlook.com</a></td></tr>
+      </table>
+      </footer>
+      
+        <script src="JS/Agendar.js"></script>
+    </body>
+    </html>

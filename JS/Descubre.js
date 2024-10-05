@@ -2,6 +2,7 @@
 //- EMMANUEL DUQUE ARISTIZABAL
 //- SEBASTIÁN GARCIA CARDONA
 //- SAMUEL FERNANDO PALACIOS SEVILLANO
+//- JUAN ALEJANDRO GOMEZ OROZCO
 //FECHA:
 //22/06/2024
 //DESCRIPCIÓN:
@@ -70,4 +71,20 @@ function cambiarp(){
     document.getElementById("info").style.fontSize="26px"
     document.getElementById("info").style.width="350px"
     document.getElementById("info").style.left="67%"
+}
+
+function Hola(){
+    var hola = document.getElementById("hola");
+    var hola2 = document.getElementById("hola2")
+
+    if (hola.style.display=="block"){
+        document.getElementById("hola2").style.display="block"
+        document.getElementById("hola").style.display="none"
+
+    } else if (hola2.style.display=="block"){
+        document.getElementById("hola2").style.display="none"
+        document.getElementById("hola").style.display="block"
+    }
+       
+    
 }

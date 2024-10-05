@@ -6,310 +6,241 @@
     22/06/2024
     DESCRIPCIÓN:
     CSS de la página de interacción con el usuario*/
-#barra:hover{
-    color: black;
-    transition: color 1s;
-    font-size: 23px;
-    transition: font-size 1s;
+    #barra:hover{
+        color: black;
+        transition: color 1s;
+        font-size: 23px;
+        transition: font-size 1s;
+        }
+        #img{
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            height: 76px; 
+            width: 200px;
+             position: absolute;
+              left: 100px;
+              top:2px ;
+        }
+    #contenedor{
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
     }
-#img{
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-#contenedor{
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-#siguiente{
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-#atras{
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.Nosotros{
-    position: absolute;
-    top: 30px;
-    font-size: 20px;
-    color: rgb(72, 71, 71);
-    background-color: rgb(185, 185, 185);
-    font-family: "Josefin Sans", sans-serif;
-    left: 700px;
-    cursor: pointer;
-}
-.Equipo{
-    position: absolute;
-    top: 29px;
-    font-size: 20px;
-    color: rgb(72, 71, 71);
-    font-family: "Josefin Sans", sans-serif;
-    left: 930px;
-    background-color: rgb(185, 185, 185);
-    cursor: pointer;
-}
-.Navega{
-    position: absolute;
-    top: 15px;
-    font-size: 20px;
-    color: rgb(72, 71, 71);
-    background-color: rgb(185, 185, 185);
-    font-family: "Josefin Sans", sans-serif;
-    left: 1050px;
-    cursor: pointer;
-}
-.Tabla{
-    background-color: rgb(255, 255, 255);  
-    position: relative; 
-    left: 1050px; 
-    top: 57px; 
-    width: 200px;
-    display: none;
-    z-index: 100;
-   }
-.Contactanos{
-    text-decoration: none;
-    color: rgb(72, 71, 71);
-    font-size: 16px;
-    font-family: "Josefin Sans", sans-serif;
-}
-.Contactanos:hover{
-    color: black;
-transition: color 1s;
-font-size: 17px;
-transition: font-size 1s;
-}
-
-.Info{
-    text-decoration: none;
-    color: rgb(72, 71, 71);
-    font-size: 16px;
-    font-family: "Josefin Sans", sans-serif;
-}
-.Info:hover{
-    color: black;
-transition: color 1s;
-font-size: 17px;
-transition: font-size 1s;
-}
-.MV{
+    #siguiente{
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    #atras{
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    #hola{
+        cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1000; width: 50px;height: 50px;display: block; 
+    }
+    #hola2{
+        cursor: pointer; position: fixed;bottom: 10px; right: 10px;z-index: 1001; width: 50px;height: 50px; display: none;
+    }
+    .Nosotros{
+        position: absolute;
+        top: 30px;
+        font-size: 20px;
+        color: rgb(72, 71, 71);
+        background-color: rgb(185, 185, 185);
+        font-family: "Josefin Sans", sans-serif;
+        left: 700px;
+        cursor: pointer;
+    }
+    .Equipo{
+        position: absolute;
+        top: 29px;
+        font-size: 20px;
+        color: rgb(72, 71, 71);
+        font-family: "Josefin Sans", sans-serif;
+        left: 930px;
+        background-color: rgb(185, 185, 185);
+        cursor: pointer;
+    }
+    .Navega{
+        position: absolute;
+        top: 15px;
+        font-size: 20px;
+        color: rgb(72, 71, 71);
+        background-color: rgb(185, 185, 185);
+        font-family: "Josefin Sans", sans-serif;
+        left: 1050px;
+        cursor: pointer;
+    }
+    .Tabla{
+        background-color: rgb(255, 255, 255);  
+        position: relative; 
+        left: 1050px; 
+        top: 57px; 
+        width: 200px;
+        display: none;
+        z-index: 100;
+       }
+    .Contactanos{
         text-decoration: none;
         color: rgb(72, 71, 71);
         font-size: 16px;
         font-family: "Josefin Sans", sans-serif;
-}
-.MV:hover{
-    color: black;
-transition: color 1s;
-font-size: 17px;
-transition: font-size 1s;
-}
-
-.Product{
-    text-decoration: none;
-    color: rgb(72, 71, 71);
-    font-size: 16px;
-    font-family: "Josefin Sans", sans-serif;
-}
-.Product:hover{
-color: black;
-transition: color 1s;
-font-size: 17px;
-transition: font-size 1s;
-}
-
-
-
-
-/*MAIN*/
-.hola{
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: 120px;
-    left: 18px;
-}
-.bienvenida{
-    position: absolute;
-    font-size: 26px;
-        font-family: "Josefin Sans", sans-serif;
-        top: 100px;  
-        left: 100px;
-}
-
-.inicial{
-    font-size: 18px;
-        font-family: "Josefin Sans", sans-serif;
-        position: absolute;
-        top: 200px;
-        left: 150px;
-}
-.subir{
-
-    font-size: 26px;
-        font-family: "Josefin Sans", sans-serif;      
-}
-
-.Hijo{
-    position: absolute;
-        top: 200px;
-        left: 150px;
-}
-.logousuario{
-    max-width: 300px; 
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 500px;
-}
-.Nieto{
-    position: absolute;
-    top: 200px;
-    left: 150px;
-}
-select{
-    width: 163px; height: 21px; font-family: Josefin Sans, sans-serif; font-size: 14px;
-}
-.advertencia{
-    position: absolute;
-    font-family: "Josefin Sans", sans-serif;  
-   top: 375px;
-    left: 345px;
-    display:none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.RolesTabla{
-    text-decoration: none;
-    color: #cfc8c2;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-
-.footer{
-    position: absolute;
-    top: 700px;
-        height: 445px; 
-        margin: 0%; 
-        background-color: black; 
-        width: 100%;
     }
-    .Nosotros2{
-        position: absolute;
-        top: 74px;
-        font-size: 16px;
-        color: white;
-        background-color: black;
-        font-family: "Josefin Sans", sans-serif;
-        left: 215px;
-        cursor: pointer;
+    .Contactanos:hover{
+        color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
     }
-    .tablafooter{
-        position: relative; 
-        left: 215px; 
-        top: 103px;
-        height: 80px;
-    }
-    .SomosTabla{
-        color: #cfc8c2;
-    background-color: black;
-    font-size: 16px;
-    font-family: "Josefin Sans", sans-serif;
-    left: 690px;
-    cursor: pointer;
-    margin-bottom: 100px;
-    text-decoration: none;
-    }
-    .ValorTabla{
-        color: #cfc8c2;
-    background-color: black;
-    font-size: 16px;
-    font-family: "Josefin Sans", sans-serif;
-    left: 190px;
-    cursor: pointer;
-    margin-top: 100px;
-    text-decoration: none;
-    }
-    .tabla2footer{
-        position: relative; 
-        left: 500px; 
-        top: 21px;
-        height: 80px;
-    }
-    .MVTabla{
-        color: #cfc8c2;
-        background-color: black;
-        font-size: 16px;
-        font-family: "Josefin Sans", sans-serif;
-        left: 190px;
-        cursor: pointer;
-        margin-top: 100px;
-        text-decoration: none; 
-    }
-    .Info2{
-        position: absolute;
-        top: 64px;
-        left: 500px;
-        font-size: 16px;
-        color: white;
-        font-family: "Josefin Sans", sans-serif;
     
-        background-color: black;
-        cursor: pointer;
-    }
-    .Quality2{
-        position: absolute;
-        top: 64px;
+    .Info{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
         font-size: 16px;
-        color: white;
-        background-color: black;
         font-family: "Josefin Sans", sans-serif;
-        left: 785px;
-        cursor: pointer;
     }
-    .tablafooter2{
-        position: absolute;
-        left: 785px; 
-        top: 103px;
+    .Info:hover{
+        color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
+    }
+    .MV{
+            text-decoration: none;
+            color: rgb(72, 71, 71);
+            font-size: 16px;
+            font-family: "Josefin Sans", sans-serif;
+    }
+    .MV:hover{
+        color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
+    }
+    
+    .Product{
+        text-decoration: none;
+        color: rgb(72, 71, 71);
+        font-size: 16px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    .Product:hover{
+    color: black;
+    transition: color 1s;
+    font-size: 17px;
+    transition: font-size 1s;
+    }
+    
+    
+    
+    
+    /*MAIN*/
+    .hola{
+        width: 70px;
         height: 70px;
+        position: absolute;
+        top: 120px;
+        left: 18px;
     }
-    .numerotabla{
-        font-size: 16px;
-        color: #cfc8c2;
-        background-color: black;
-        font-family: "Josefin Sans", sans-serif;
-        cursor: pointer;
+    .bienvenida{
+        position: absolute;
+        font-size: 26px;
+            font-family: "Josefin Sans", sans-serif;
+            top: 100px;  
+            left: 100px;
+    }
+    
+    .inicial{
+        font-size: 18px;
+            font-family: "Josefin Sans", sans-serif;
+            position: absolute;
+            top: 200px;
+            left: 150px;
+    }
+    .subir{
+        font-size: 26px;
+            font-family: "Josefin Sans", sans-serif;      
+    }
+    
+    .Hijo{
+        position: absolute;
+            top: 200px;
+            left: 150px;
+    }
+    .logousuario{
+        max-width: 300px; 
+        display: none;
+        position: absolute;
+        top: 10px;
+        left: 500px;
+    }
+    .Nieto{
+        position: absolute;
+        top: 200px;
+        left: 150px;
+    }
+    select{
+        width: 163px; height: 21px; font-family: Josefin Sans, sans-serif; font-size: 14px;
+    }
+    .advertencia{
+        position: absolute;
+        font-family: "Josefin Sans", sans-serif;  
+       top: 375px;
+        left: 345px;
+        display:none;
+    }
+    .enviarcorreo{
+        font-size: 26px;
+        font-family: "Josefin Sans", sans-serif;   
+        color: black; 
+        position: relative;
+        top: 10px;
         text-decoration: none;
     }
-    .corretabla{
-        font-size: 16px;
-        color: #cfc8c2;
-        background-color: black;
-        font-family: "Josefin Sans", sans-serif;
-        cursor: pointer; 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .RolesTabla{
         text-decoration: none;
-    }
-    .ColorTabla{
         color: #cfc8c2;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    
+    .footer{
+        position: absolute;
+        top: 700px;
+            height: 445px; 
+            margin: 0%; 
+            background-color: black; 
+            width: 100%;
+        }
+        .Nosotros2{
+            position: absolute;
+            top: 74px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            font-family: "Josefin Sans", sans-serif;
+            left: 215px;
+            cursor: pointer;
+        }
+        .tablafooter{
+            position: relative; 
+            left: 215px; 
+            top: 103px;
+            height: 80px;
+        }
+        .SomosTabla{
+            color: #cfc8c2;
         background-color: black;
         font-size: 16px;
         font-family: "Josefin Sans", sans-serif;
@@ -317,24 +248,103 @@ select{
         cursor: pointer;
         margin-bottom: 100px;
         text-decoration: none;
-    }
-    .creditos{
-        color: white;
-        font-family: "Josefin Sans", sans-serif;
+        }
+        .ValorTabla{
+            color: #cfc8c2;
+        background-color: black;
         font-size: 16px;
-        position: absolute;
-        left: 530px;
-        top:330px;
+        font-family: "Josefin Sans", sans-serif;
+        left: 190px;
         cursor: pointer;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        margin-top: 100px;
+        text-decoration: none;
+        }
+        .tabla2footer{
+            position: relative; 
+            left: 500px; 
+            top: 21px;
+            height: 80px;
+        }
+        .MVTabla{
+            color: #cfc8c2;
+            background-color: black;
+            font-size: 16px;
+            font-family: "Josefin Sans", sans-serif;
+            left: 190px;
+            cursor: pointer;
+            margin-top: 100px;
+            text-decoration: none; 
+        }
+        .Info2{
+            position: absolute;
+            top: 64px;
+            left: 500px;
+            font-size: 16px;
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+        
+            background-color: black;
+            cursor: pointer;
+        }
+        .Quality2{
+            position: absolute;
+            top: 64px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            font-family: "Josefin Sans", sans-serif;
+            left: 785px;
+            cursor: pointer;
+        }
+        .tablafooter2{
+            position: absolute;
+            left: 785px; 
+            top: 103px;
+            height: 70px;
+        }
+        .numerotabla{
+            font-size: 16px;
+            color: #cfc8c2;
+            background-color: black;
+            font-family: "Josefin Sans", sans-serif;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .corretabla{
+            font-size: 16px;
+            color: #cfc8c2;
+            background-color: black;
+            font-family: "Josefin Sans", sans-serif;
+            cursor: pointer; 
+            text-decoration: none;
+        }
+        .ColorTabla{
+            color: #cfc8c2;
+            background-color: black;
+            font-size: 16px;
+            font-family: "Josefin Sans", sans-serif;
+            left: 690px;
+            cursor: pointer;
+            margin-bottom: 100px;
+            text-decoration: none;
+        }
+        .creditos{
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            position: absolute;
+            left: 530px;
+            top:330px;
+            cursor: pointer;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

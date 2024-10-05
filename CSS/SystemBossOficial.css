@@ -12,11 +12,16 @@
     font-size: 23px;
     transition: font-size 1s;
     }
-#img{
-    cursor: pointer;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
+    #img{
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        height: 76px; 
+        width: 200px;
+         position: absolute;
+          left: 100px;
+          top:2px ;
+    }
 #contenedor{
     cursor: pointer;
     opacity: 0;
@@ -32,7 +37,26 @@
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
-
+#hola{
+    cursor: pointer; 
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+    z-index: 1000;
+     width: 50px;
+     height: 50px;
+     display: block; 
+}
+#hola2{
+    cursor: pointer; 
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+    z-index: 1001;
+     width: 50px;
+     height: 50px;
+      display: none;
+}
 .Nosotros{
     position: absolute;
     top: 30px;

@@ -54,3 +54,19 @@ function Tabla(){
  }
   
 }
+
+function Hola(){
+    var hola = document.getElementById("hola");
+    var hola2 = document.getElementById("hola2")
+
+    if (hola.style.display=="block"){
+        document.getElementById("hola2").style.display="block"
+        document.getElementById("hola").style.display="none"
+
+    } else if (hola2.style.display=="block"){
+        document.getElementById("hola2").style.display="none"
+        document.getElementById("hola").style.display="block"
+    }
+       
+    
+}

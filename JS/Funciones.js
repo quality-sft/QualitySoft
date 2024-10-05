@@ -150,12 +150,14 @@ function terproducto(){
 }
 
 function Hola(){
-    var hola = document.getElementById("hola");
-    var hola2 = document.getElementById("hola2")
+    
+    var hola = document.getElementById("hola").style;
+    var hola2 = document.getElementById("hola2");
 
     if (hola.style.display=="block"){
         document.getElementById("hola2").style.display="block"
         document.getElementById("hola").style.display="none"
+        alert("hola")
 
     } else if (hola2.style.display=="block"){
         document.getElementById("hola2").style.display="none"
